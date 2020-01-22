@@ -313,6 +313,178 @@ p.sub-cap {
     color: #0064d2;
 }
 /*-- header-nav --*/
+
+/*--music_right--*/
+/*--/video--*/
+div.jp-type-playlist div.jp-playlist a {
+	color: #fff;
+	text-decoration: none;
+	padding: 22px 20px 22px 20px!important;
+	background:#222!important;
+	display: block;
+}
+div.jp-type-playlist div.jp-playlist a {
+	color: #fff;
+	text-decoration: none;
+	padding: 25px 20px 25px 20px;
+	background:#222;
+	display: block;
+	font-size: 1.4em;
+}
+div.jp-type-playlist div.jp-playlist a {
+color: #999!important;
+}
+div.jp-type-playlist div.jp-playlist a:hover {
+color:#fff!important;
+	background: #45B39D!important;
+}
+/*--//video--*/
+/*--//pricing_table--*/
+/*-- wthree --*/
+/*-- agileits --*/
+.pricing {
+float: left;
+width: 49%;
+text-align: center;
+margin-left:0;
+}
+.pricing-table {
+margin: 5% auto 0 auto;
+width: 65%;
+}
+.price-top h3 {
+font-size: 3em;
+font-weight: 700;
+color: #fff;
+}
+.price-top h4 {
+font-size: 1.2em;
+color: #fff;
+font-weight: 700;
+}
+.price-top {
+background: none;
+padding: 1em;
+border-radius: 0.4em 0.4em 0em 0em;
+-webkit-border-radius: 0.4em 0.4em 0em 0em;
+-o-border-radius: 0.4em 0.4em 0em 0em;
+-moz-border-radius: 0.4em 0.4em 0em 0em;
+border: 1px solid #EA57A3;
+}
+.price-bottom h3 {
+font-size: 2.5em;
+color: #333;
+}
+.price-bottom p {
+font-size: .9em;
+text-transform: uppercase;
+color: #999;
+margin-bottom: .8em;
+}
+.price-bottom ul {
+padding: 0;
+}
+.price-bottom ul li {
+   font-size: 1em;
+line-height: 1.9em;
+padding: .3em 0.5em;
+font-weight: 400;
+}
+a.price {
+font-size: .9em;
+text-transform: uppercase;
+padding: .6em 1em;
+background: #EA57A3;
+color: #fff;
+display: block;
+width: 57%;
+margin: 0.5em auto 0.6em;
+border-radius: 0.3em;
+-o-border-radius: 0.3em;
+-moz-border-radius: 0.3em;
+-webkit-border-radius: 0.3em;
+font-weight:400;
+	text-decoration: none;
+}
+.pricing:hover a.price {
+  transition:transform 0.3s;
+-o-transition: transform 0.3s;
+-webkit-transition:-webkit-transform 0.3s;
+-moz-transition:-moz-transform 0.3s;
+background:#45B39D;
+}
+.price-bottom {
+padding:1em 0;
+border: 1px solid #EA57A3;
+border-top: none;
+	border-radius: 0em 0em 0.3em 0.3em;
+-webkit-border-radius: 0em 0em 0.3em 0.3em;
+-o-border-radius: 0em 0em 0.3em 0.3em;
+-moz-border-radius: 0em 0em 0.3em 0.3em;
+}
+
+.pricing.two{
+margin-left:2%;
+}
+.price-section{
+background: #222;
+padding: 3em 2em;
+	border-radius: 0.3em;
+-o-border-radius: 0.3em;
+-moz-border-radius: 0.3em;
+-webkit-border-radius: 0.3em;
+}
+.price-bottom ul li {
+list-style: none;
+}
+a.icon {
+float: left;
+	width: 17%;
+}
+a.text {
+float: right;
+width: 77%;
+text-align: left;
+color:#858B94;
+}
+a.text:hover{
+text-decoration:none;
+}
+i.glyphicon.glyphicon-ok {
+color: #EA57A3;
+font-size: 1em;
+padding-left: 10px;
+}
+i.glyphicon.glyphicon-remove {
+color: #DE2C2C;
+font-size: 1.3em;
+}
+h3.hd-tittle {
+color: #fff;
+font-weight: 600;
+font-size: 1.6em;
+margin-bottom: 1em;
+}
+/*--//pricing_table--*/
+.apps {
+background: #222;
+padding: 2.3em 2em;
+border-radius: 0.3em;
+-o-border-radius: 0.3em;
+-moz-border-radius: 0.3em;
+-webkit-border-radius: 0.3em;
+margin: 1.4em 0;
+}
+.banner-button {
+float: left;
+   width: 45.8%;
+}
+.green-button {
+margin: 0 1em;
+}
+/*--//music_right--*/
+
+
 /*-- top-nav --*/
 .navbar-header h1 a {
     color: #111;

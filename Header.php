@@ -90,8 +90,7 @@
                </div>
                <div class="hedder-logo">
                   <h1><a href="index.html">   
-                     <img src="images/logotarija.png" class="img-fluid" alt="Responsive images"></span>CS</a>
-                  </h1>
+                     <img src="images/loogoo.png" class="img-fluid" alt="Responsive images"></span></a>
                </div>
                <!-- /open/close -->
                <!-- /navigation section -->

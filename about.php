@@ -8,7 +8,7 @@ require 'Header.php';
             <h3 class="title text-center mb-lg-5 mb-md-4 mb-sm-4 mb-3">Quienes Somos</h3>
             <div class="row">
                <div class="col-xs-6-1 about-txt-left">
-                  <img src="images/principal/parqueleo.jpg" alt="" class="img-fluid">
+                  <img src="images/principal/face.jpg" alt="" class="img-fluid">
                   
                </div>
                <div class="col-xs-6 about-txt-right">
@@ -28,12 +28,7 @@ require 'Header.php';
                   </div>
                   </div>
 
-                  <div class="abut-fst-img pt-3">
-                     <img src="images/principal/face.jpg" alt=" " class="img-fluid">
-                     <div class="abut-secound-img">
-                        <img src="images/ab3.jpg" alt=" " class="img-fluid">
-                     </div>
-                  </div>
+                  
                </div>
             </div>
          </div>
