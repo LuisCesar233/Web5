@@ -8,7 +8,7 @@ html,
 body {
 padding: 0;
 margin: 0;
-background: #fff;
+background:#807d7d;
 letter-spacing: 1px;
 font-family:  'Arimo', sans-serif;
 }
@@ -36,7 +36,7 @@ transition: 0.5s all;
 -o-transition: 0.5s all;
 -ms-transition: 0.5s all;
 letter-spacing: 1px;
-font-family:  'Arimo', sans-serif;
+font-family:  'cursive', sans-serif;
 }
 select,input[type="email"],input[type="text"],input[type=password],
 input[type="button"],input[type="submit"],textarea{
@@ -74,11 +74,11 @@ list-style-type: none;
 /*-- //Reset-Code --*/
 .title {
 font-size: 50px;
-color: #0c0;
+color: #ffffff;
 letter-spacing: 3px;
 font-weight: 600;
 text-transform: uppercase;
-font-family:'Open Sans', sans-serif;
+font-family: Impact, fantasy;
 }
 .clr {
 color: #fff;
@@ -123,11 +123,6 @@ width: 40%;
 }
 /*--//nav --*/
 
-ts --*/
-/******** SAP-ENDS ************/
-#flexiselDemo1, #flexiselDemo2, #flexiselDemo3 {
-	display: none;
-}
 .nbs-flexisel-container {
 	position: relative;
 	max-width: 100%;

@@ -7,8 +7,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 html, body{
 	margin:0;
 	font-size: 100%;
-	font-family: 'Open Sans', sans-serif;
-	background: #fff;
+	font-family: Impact, fantasy;
+	background: rgba(41, 9, 9, 0.71);
 }
 body a {
 	text-decoration:none;

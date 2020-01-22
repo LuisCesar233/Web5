@@ -10,7 +10,7 @@ require 'Header.php';
 ?>
          <!--headder-->
          <section class="gallery-design ">
-            <div class="container py-lg-5 py-md-5 py-sm-4 py-4">
+            <div class="container">
                <h3 class="title text-center  ">Our Gallery</h3>
                <div class="row grid gallery-info">
                   <div class="col-lg-7 col-md-7 col-sm-7 gallery-grids p-0">
@@ -82,6 +82,161 @@ require 'Header.php';
                </div>
             </div>
          </section>
+
+
+<!--/music-right-->
+<div class="music-right">
+								<!--/video-main-->
+								 <div class="video-main">
+									<div class="video-record-list">
+										<div id="jp_container_1" class="jp-video jp-video-270p" role="application" aria-label="media player">
+											<div class="jp-type-playlist">
+												<div id="jquery_jplayer_1" class="jp-jplayer" style="width: 480px; height: 270px;"><img id="jp_poster_0" src="video/play1.png" style="width: 480px; height: 270px; display: inline;"><video id="jp_video_0" preload="metadata" src="http://192.168.30.9/vijayaa/2015/Dec/mosaic/web/video/Ellie-Goulding.webm" title="1. Ellie-Goulding" style="width: 0px; height: 0px;"></video></div>
+												<div class="jp-gui">
+													<div class="jp-video-play" style="display: block;">
+														<button class="jp-video-play-icon" role="button" tabindex="0">play</button>
+													</div>
+													<div class="jp-interface">
+														<div class="jp-progress">
+															<div class="jp-seek-bar" style="width: 100%;">
+																<div class="jp-play-bar" style="width: 0%;"></div>
+															</div>
+														</div>
+														<div class="jp-current-time" role="timer" aria-label="time">00:00</div>
+														<div class="jp-duration" role="timer" aria-label="duration">00:18</div>
+														<div class="jp-controls-holder">
+															<div class="jp-controls">
+																<button class="jp-previous" role="button" tabindex="0">previous</button>
+																<button class="jp-play" role="button" tabindex="0">play</button>
+															</div>
+															<div class="jp-volume-controls">
+																<button class="jp-mute" role="button" tabindex="0">mute</button>
+																<button class="jp-volume-max" role="button" tabindex="0">max volume</button>
+																<div class="jp-volume-bar">
+																	<div class="jp-volume-bar-value" style="width: 100%;"></div>
+																</div>
+															</div>
+															<div class="jp-toggles">
+															
+																<button class="jp-full-screen" role="button" tabindex="0">full screen</button>
+															</div>
+														</div>
+														<div class="jp-details" style="display: none;">
+															<div class="jp-title" aria-label="title">1. Ellie-Goulding</div>
+														</div>
+													</div>
+												</div>
+												<div class="jp-playlist">
+													<ul style="display: block;"><li class="jp-playlist-current"><div><a href="javascript:;" class="jp-playlist-item-remove" style="display: none;">×</a><a href="javascript:;" class="jp-playlist-item jp-playlist-current" tabindex="0">1. Ellie-Goulding <span class="jp-artist">by Pixar</span></a></div></li><li><div><a href="javascript:;" class="jp-playlist-item-remove" style="display: none;">×</a><a href="javascript:;" class="jp-playlist-item" tabindex="0">2. Mark-Ronson-Uptown <span class="jp-artist">by Pixar</span></a></div></li><li><div><a href="javascript:;" class="jp-playlist-item-remove" style="display: none;">×</a><a href="javascript:;" class="jp-playlist-item" tabindex="0">3. Ellie-Goulding <span class="jp-artist">by Pixar</span></a></div></li><li><div><a href="javascript:;" class="jp-playlist-item-remove" style="display: none;">×</a><a href="javascript:;" class="jp-playlist-item" tabindex="0">4. Maroon-Sugar <span class="jp-artist">by Pixar</span></a></div></li><li><div><a href="javascript:;" class="jp-playlist-item-remove" style="display: none;">×</a><a href="javascript:;" class="jp-playlist-item" tabindex="0">5. Pharrell-Williams <span class="jp-artist">by Pixar</span></a></div></li><li><div><a href="javascript:;" class="jp-playlist-item-remove" style="display: none;">×</a><a href="javascript:;" class="jp-playlist-item" tabindex="0">6. Ellie-Goulding <span class="jp-artist">by Pixar</span></a></div></li><li><div><a href="javascript:;" class="jp-playlist-item-remove" style="display: none;">×</a><a href="javascript:;" class="jp-playlist-item" tabindex="0">7. Pharrell-Williams <span class="jp-artist">by Pixar</span></a></div></li></ul>
+												</div>
+												<div class="jp-no-solution" style="display: none;">
+													<span>Update Required</span>
+													To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- script for play-list -->
+				<link href="css/jplayer.blue.monday.min.css" rel="stylesheet" type="text/css">
+				<script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
+				<script type="text/javascript" src="js/jplayer.playlist.min.js"></script>
+				<script type="text/javascript">
+				//<![CDATA[
+				$(document).ready(function(){
+
+					new jPlayerPlaylist({
+						jPlayer: "#jquery_jplayer_1",
+						cssSelectorAncestor: "#jp_container_1"
+					}, [
+						
+						{
+							title:"1. Ellie-Goulding",
+							artist:"",
+							mp4: "video/Ellie-Goulding.mp4",
+							ogv: "video/Ellie-Goulding.ogv",
+							webmv: "video/Ellie-Goulding.webm",
+							poster:"video/play1.png"
+						},
+						{
+							title:"2. Mark-Ronson-Uptown",
+							artist:"",
+							mp4: "video/Mark-Ronson-Uptown.mp4",
+							ogv: "video/Mark-Ronson-Uptown.ogv",
+							webmv: "video/Mark-Ronson-Uptown.webm",
+							poster:"video/play2.png"
+						},
+						{
+							title:"3. Ellie-Goulding",
+							artist:"",
+							mp4: "video/Ellie-Goulding.mp4",
+							ogv: "video/Ellie-Goulding.ogv",
+							webmv: "video/Ellie-Goulding.webm",
+							poster:"video/play1.png"
+						},
+						{
+							title:"4. Maroon-Sugar",
+							artist:"",
+							mp4: "video/Maroon-Sugar.mp4",
+							ogv: "video/Maroon-Sugar.ogv",
+							webmv: "video/Maroon-Sugar.webm",
+							poster:"video/play4.png"
+						},
+						{
+							title:"5. Pharrell-Williams",
+							artist:"",
+							mp4: "video/Pharrell-Williams.mp4",
+							ogv: "video/Pharrell-Williams.ogv",
+							webmv: "video/Pharrell-Williams.webm",
+							poster:"video/play5.png"
+						},
+						{
+							title:"6. Ellie-Goulding",
+							artist:"",
+							mp4: "video/Ellie-Goulding.mp4",
+							ogv: "video/Ellie-Goulding.ogv",
+							webmv: "video/Ellie-Goulding.webm",
+							poster:"video/play1.png"
+						},
+						{
+							title:"7. Pharrell-Williams",
+							artist:"",
+							mp4: "video/Pharrell-Williams.mp4",
+							ogv: "video/Pharrell-Williams.ogv",
+							webmv: "video/Pharrell-Williams.webm",
+							poster:"video/play5.png"
+						}
+					], {
+						swfPath: "../../dist/jplayer",
+						supplied: "webmv,ogv,mp4",
+						useStateClassSkin: true,
+						autoBlur: false,
+						smoothPlayBar: true,
+						keyEnabled: true
+					});
+
+				});
+				//]]>
+					</script>
+			<!-- //script for play-list -->
+
+								<!--//video-main-->
+								<!--/app_store-->
+									  <div class="apps">
+												<h3 class="hd-tittle">Mosaic now available in</h3>
+												<div class="banner-button">
+													<a href="#"><img src="images/1.png" alt=""></a>
+												</div>
+												<div class="banner-button green-button">
+													<a href="#"><img src="images/2.png" alt=""></a>
+												</div>
+													<div class="clearfix"></div>
+										</div>
+								  <!--//app_store-->
+						         <!--/start-paricing-tables-->
+         </div>
+													 <!--//music-right-->
+
          <!--Footer -->   
          <footer class="py-lg-4 py-md-3 py-sm-3 py-3">
             <div class="icons text-center p-3">
@@ -109,7 +264,10 @@ require 'Header.php';
          <!-- //light box js-->   
          <!--bootstrap working-->
          <script src="js/bootstrap.min.js"></script>
+         <script src="js/bootstrap.js"></script>
          <!-- //bootstrap working-->
+         <script src="js/scripts.js"></script>
+
       <script type="text/javascript" src="scripts/articulo.js"></script>
    </body>
 </html>
